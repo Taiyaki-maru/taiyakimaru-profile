@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>たいやき丸の自己紹介</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Reggae+One&family=Shippori+Mincho&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>たいやき丸の自己紹介</h1>
+
+  <nav>
+    <button id="profile-tab">プロフィール</button>
+    <button id="quiz-tab">クイズ</buttton>
+  </nav>
+
+  <section id="profile-section">
+    <div class="profile-header">
+      <img src="images/profile.png" alt="たいやき丸のプロフィール画像">
+      <p>こんにちは！たいやき丸です！</p>
+    </div>
+    <h2>プロフィール</h2>
+    <ul>
+      <li>出身：たいやき星</li>
+      <li>趣味：ゲーム(アクション)、ピアノ、絵を描く</li>
+      <li>好きな食べ物：ぶどう</li>
+    </ul>
+  </section>
+
+  <section id="quiz-section">
+    <h2>たいやき丸のプロフィールクイズ！</h2>
+    <div id="question"></div>
+    <div id="choices"></div>
+    <button id="next-button">次へ</button>
+    <p id="result"></p>
+  </section>
+
+  <!-- JavaScript -->
+   <script src="script.js"></script>
+</body>
+</html>
